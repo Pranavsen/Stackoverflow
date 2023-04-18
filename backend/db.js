@@ -1,7 +1,7 @@
 const mongoose = require("mongoose");
-
+const url = "mongodb+srv://pranavsen962:Kavasaki9_@cluster0.d9jekqe.mongodb.net/StackData"
 module.exports.connect=()=>{
-    mongoose.connect("mongodb://127.0.0.1:27017/StackData")
+    mongoose.connect(url)
     .then(()=> console.log("Successfully Connected StackData"))
     .catch((err)=>console.log(err));
 }
