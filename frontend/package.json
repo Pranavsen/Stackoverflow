@@ -2,7 +2,7 @@
   "name": "stack-overflow-clone",
   "version": "0.1.0",
   "private": true,
-  "proxy": "https://stackoverflow-4p5g.onrender.com/",
+  "proxy": "http://127.0.0.1:4000",
   "dependencies": {
     "@emotion/react": "^11.10.6",
     "@emotion/styled": "^11.10.6",
